@@ -1,6 +1,6 @@
 # Basic Syntax of Python
 
-##1. Introduction
+## 1. Introduction
 
 This lab contains the most commonly used concepts and syntax, and is mainly based on hands-on practice. Some advanced use of Python will be elaborated in later labs.
 
@@ -16,13 +16,13 @@ If you are new to Python, please go through all steps carefully. Make sure you u
 - Control structures
 - Exception handling
 
-##2. What is Python
+## 2. What is Python
 
 Python is a programming language, which is fast to learn and has powerful functions. It provides abundant basic modules and third-party modules that could be directly used in programs. It contains a series of functions like database, web development, file operations, and etc. Flask Web framework is a powerful development module that will be involved in this week's test.
 
 Python currently has two versions: Python 2 and Python 3, and they are code-incompatible. Python 3 has improved a lot, and has access to most libraries. That's why we choose Python 3. If you're familiar with Python 2, then Python 3 should be pretty easy for you.
 
-###2.1 Advantages and Disadvantages
+### 2.1 Advantages and Disadvantages
 
 Life is short, and I use Python.
 
