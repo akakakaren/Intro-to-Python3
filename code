@@ -1,0 +1,171 @@
+This file contains part of the sample code provided in the tutorial. 
+The operating environment used is Linux Ubuntu.
+
+$ sudo apt-get update
+$ sudo apt-get install python3
+$ echo "print('hello labex')" > /home/labex/labex.py
+$ python3 /home/labex/labex.py
+vim circle.py
+#!/usr/bin/env python3
+ from math import pi 
+  # Calculate
+    result = 5 * 5 * pi
+ print(result)
+  #!/usr/bin/env python3
+    from math import pi
+    # calculate
+    result = 5 * 5 * pi
+    print(result)
+
+  $ chmod +x circle.py
+ $ ./circle.py
+    >>> a = 10
+    >>> b = 10.6
+    >>> c = True
+    >>> d = None
+    >>> print(a,b,c,d)
+    >>> print(type(a),a)
+    >>> print(type(b),b)
+    >>> print(type(c),c)
+    >>> print(type(d),d)
+    e = a + b
+    print(e)
+    f = b/a
+    print(f)
+    g = b - a
+    print(g)
+    h = b * a
+    print(h)
+
+   True and False
+    True or False
+    c and False
+    c or False
+    str1 = "hello"
+    str2 = 'labex'
+    str3 = 'hello, \'labex\''
+    str4 = "hello, 'labex'"
+    str5 = 'hello, "labex"'
+    str6 = """ hello, 
+    labex """
+ str1 + ' ' + str2
+    str1
+    str1[0]
+    str1[1]
+    str1[-1]
+    str1[-2]
+    str1[:2]
+    str1[3:]
+  len(str2)
+
+ >>> a = int(input("Please enter: "))
+    Please enter: 10
+    >>> if a > 10:
+    ...     print('a > 10')
+    ... elif a == 10:
+    ...     print('a == 10')
+    ... else:
+    ...     print('a < 10')
+    strlist = ['hello','labex','.io']
+    for s in strlist:
+        print(s)
+    for a in range(10):
+        print(a)
+  w = 100
+    while w > 10:
+        print(w)
+        w -= 10
+  for a in range(10):
+        if a == 5:
+            break
+        print(a)
+    w = 100
+    while w > 10:
+        w -= 10
+        if w == 50:
+            continue
+        print(w)
+    filename = input("Enter file path:")
+    f = open(filename)
+    print(f.read())
+filename = input("Enter file path:")
+    try:
+        f = open(filename)
+        print(f.read())
+        f.close()
+    except FileNotFoundError:
+        print("File not found")
+    filename = '/etc/protocols'
+    f = open(filename)
+    try:
+        f.write('labex')
+    except:
+        print("File write error")
+    finally:
+        print("finally")
+        f.close()
+ 
+ >>> courses = ['Linux', 'Python', 'Vim', 'C++']
+>>> courses.append('PHP')
+>>> courses
+['Linux', 'Python', 'Vim', 'C++', 'PHP']
+
+>>>
+>>> courses[0]
+'Linux'
+>>> courses[-1]
+'PHP'
+>>> courses[-2]
+'C++'
+>>> courses[9]
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+IndexError: list index out of range
+
+>>> len(courses)
+5
+
+>>> courses.insert(0, 'Java')
+>>> courses
+['Java', 'Linux', 'Python', 'Vim', 'C++', 'PHP']
+>>> courses.insert(1, 'Ruby')
+>>> courses
+['Java', 'Ruby', 'Linux', 'Python', 'Vim', 'C++', 'PHP']
+
+>>> courses.count('Java')
+1
+
+>>> courses.remove('Java')
+>>> courses
+['Ruby', 'Linux', 'Python', 'Vim', 'C++', 'PHP']
+
+>>> courses
+['Ruby', 'Linux', 'Python', 'Vim', 'C++', 'PHP']
+>>> del courses[-1]
+>>> courses
+['Ruby', 'Linux', 'Python', 'Vim', 'C++']
+>>> courses.append('PHP')
+>>> courses
+['Ruby', 'Linux', 'Python', 'Vim', 'C++', 'PHP']
+
+>>> courses
+['Ruby', 'Linux', 'Python', 'Vim', 'C++', 'PHP']
+>>> courses.reverse()
+>>> courses
+['PHP', 'C++', 'Vim', 'Python', 'Linux', 'Ruby’]]
+
+>>> new_courses = ['BigData', 'Cloud']
+>>> courses.extend(new_courses)
+>>> courses
+['PHP', 'C++', 'Vim', 'Python', 'Linux', 'Ruby', 'BigData', 'Cloud']
+
+>>> courses
+['PHP', 'C++', 'Vim', 'Python', 'Linux', 'Ruby', 'BigData', 'Cloud']
+>>> courses.sort()
+>>> courses
+['BigData', 'C++', 'Cloud', 'Linux', 'PHP', 'Python', 'Ruby', 'Vim']
+
+>>> set1 = {1,2,3,4}
+>>> set2 = {3,4,5,6}
+
+
