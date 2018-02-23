@@ -1,8 +1,8 @@
-# Basic Syntax of Python
+# [Basic Syntax of Python](https://labex.io/courses/10)
 
 ## 1. Introduction
 
-This lab contains the most commonly used concepts and syntax, and is mainly based on hands-on practice. Some advanced use of Python will be elaborated in later labs.
+This lab contains the most commonly used concepts and [syntax](https://labex.io/courses/10), and is mainly based on hands-on practice. Some advanced use of Python will be elaborated in later labs.
 
 If you are new to Python, please go through all steps carefully. Make sure you understand every point, and if you have any questions, don't hesitate to let us know in the discussion forum. 
 
@@ -523,7 +523,7 @@ Then external code could use except ValueError to capture and process.
 
 ## 4. Wrap Up
 
-In this section, we do not require code from Github code repository. If you need to save some code, you can submit by yourself.
+[In this section](https://labex.io/courses/10), we do not require code from Github code repository. If you need to save some code, you can submit by yourself.
 
 This is all for this lab. Things are very basic, since it is almost impossible to introduce Python comprehensively in a single lab, and these are the most common and important key points：
 
