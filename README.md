@@ -70,6 +70,6 @@ challenge
 - collections module
 
 ## Attribution
-Again, this tutorial is created by [migfd](https://labex.io/courses/10) and is submitted to [LabEx](https://labex.io)
+this tutorial is created by [migfd](https://labex.io/courses/10) and is submitted to [LabEx](https://labex.io)
 
 Permission has been granted for this distribution as long as properly attributed. 
